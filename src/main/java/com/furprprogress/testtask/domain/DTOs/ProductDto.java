@@ -1,21 +1,21 @@
-package com.furprprogress.testtask.domainDTOs;
+package com.furprprogress.testtask.domain.DTOs;
 
 import java.math.BigDecimal;
 
-public class ProductDTO {
+public class ProductDto {
     private String name;
     private String description;
     private BigDecimal price;
 
-    public ProductDTO() {
+    public ProductDto() {
     }
 
-    public ProductDTO(String name, String description, BigDecimal price) {
+    public ProductDto(String name, String description, BigDecimal price) {
         this.name = name;
         this.description = description;
         this.price = price;
     }
-    
+
     public String getName() {
         return name;
     }

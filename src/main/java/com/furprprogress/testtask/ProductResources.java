@@ -2,7 +2,7 @@ package com.furprprogress.testtask;
 
 import com.furprprogress.testtask.application.ProductService;
 import com.furprprogress.testtask.domain.DTOs.ProductDto;
-import jakarta.inject.Inject;
+import jakarta.inject.*;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
@@ -10,12 +10,12 @@ import java.util.List;
 import java.util.UUID;
 
 @Path("/products")
-public class ProductApplication {
+public class ProductResources {
 
     private final ProductService productService;
 
     @Inject
-    public ProductApplication(ProductService productService) {
+    public ProductResources(ProductService productService) {
         this.productService = productService;
     }
 
@@ -44,7 +44,7 @@ public class ProductApplication {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     public Response createProduct(ProductDto productDto) {
-        if(productDto != null)
+        if(productDto == null)
         {
             return Response.status(Response.Status.BAD_REQUEST).build();
         }
