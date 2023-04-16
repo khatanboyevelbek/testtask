@@ -2,7 +2,7 @@ package com.furprprogress.testtask.infrastructure.repositories;
 
 import com.furprprogress.testtask.domain.model.Product;
 import com.furprprogress.testtask.infrastructure.configs.MyBatisUtilities;
-import com.furprprogress.testtask.infrastructure.interfaces.ProductMapper;
+import com.furprprogress.testtask.infrastructure.configs.ProductMapper;
 import com.furprprogress.testtask.infrastructure.interfaces.ProductRepository;
 import org.apache.ibatis.session.SqlSession;
 import java.util.List;

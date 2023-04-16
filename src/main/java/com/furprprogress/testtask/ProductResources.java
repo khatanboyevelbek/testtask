@@ -24,7 +24,7 @@ public class ProductResources {
     public Response getAllProducts() {
         List<ProductDto> productDtos = productService.getAllProducts();
 
-        return Response.ok(productDtos).build();
+        return Response.ok("productDtos").build();
     }
 
     @GET

@@ -1,4 +1,4 @@
-package com.furprprogress.testtask.infrastructure.interfaces;
+package com.furprprogress.testtask.infrastructure.configs;
 
 import com.furprprogress.testtask.domain.model.Product;
 import org.apache.ibatis.annotations.*;

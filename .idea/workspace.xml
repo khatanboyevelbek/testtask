@@ -9,18 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09003fe9-ff2a-4873-8a25-22b0265b2b70" name="Changes" comment="">
+    <list default="true" id="09003fe9-ff2a-4873-8a25-22b0265b2b70" name="Changes" comment="Implament CRUD funtionalities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/ProductApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/ProductResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/ProductResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/application/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/application/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/domain/DTOs/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/domain/DTOs/ProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/domain/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/domain/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/configs/MyBatisUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/configs/MyBatisUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/interfaces/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/interfaces/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/interfaces/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/interfaces/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/repositories/MyBatisProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/repositories/MyBatisProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,11 +160,36 @@
       <updated>1681499908299</updated>
       <workItem from="1681499910193" duration="5065000" />
       <workItem from="1681534567188" duration="10634000" />
-      <workItem from="1681563091965" duration="9021000" />
+      <workItem from="1681563091965" duration="10134000" />
+      <workItem from="1681576343208" duration="3013000" />
+      <workItem from="1681616447339" duration="4963000" />
     </task>
+    <task id="LOCAL-00001" summary="Implament CRUD funtionalities">
+      <created>1681574683778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681574683778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implament CRUD funtionalities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implament CRUD funtionalities" />
   </component>
 </project>
