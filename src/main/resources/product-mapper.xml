@@ -1,0 +1,38 @@
+<!-- product-mapper.xml -->
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.furprprogress.testtask.infrastructure.configs.ProductMapper">
+
+    <resultMap id="productResultMap" type="com.furprprogress.testtask.domain.model.Product">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="description" column="description"/>
+        <result property="price" column="price"/>
+    </resultMap>
+
+    <select id="getAllProducts" resultMap="productResultMap">
+        SELECT * FROM products
+    </select>
+
+    <select id="getProductById" resultMap="productResultMap" parameterType="long">
+        SELECT * FROM products WHERE id = #{id}
+    </select>
+
+    <insert id="insertProduct" parameterType="com.furprprogress.testtask.domain.model.Product">
+        INSERT INTO products (name, description, price) VALUES (#{name}, #{description}, #{price})
+        <selectKey keyProperty="id" resultType="java.util.UUID" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <update id="updateProduct" parameterType="com.furprprogress.testtask.domain.model.Product">
+        UPDATE products SET name = #{name}, description = #{description}, price = #{price} WHERE id = #{id}
+    </update>
+
+    <delete id="deleteProductById" parameterType="long">
+        DELETE FROM products WHERE id = #{id}
+    </delete>
+
+</mapper>

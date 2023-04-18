@@ -2,31 +2,24 @@ package com.furprprogress.testtask.domain.model;
 
 import java.math.BigDecimal;
 import java.util.Objects;
-import java.util.UUID;
 
 public class Product {
-    private UUID id;
+    private long id;
     private String name;
     private String description;
     private BigDecimal price;
 
     public Product() {
-        this.id = UUID.randomUUID();
     }
 
     public Product(String name, String description, BigDecimal price) {
-        this.id = UUID.randomUUID();
         this.name = name;
         this.description = description;
         this.price = price;
     }
 
-    public UUID getId() {
+    public long getId() {
         return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -68,7 +61,7 @@ public class Product {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, description, price);
+        return Objects.hash(id);
     }
 }
 

@@ -7,8 +7,8 @@ import java.util.UUID;
 
 public interface ProductRepository {
     List<Product> getAllProducts();
-    Product getProductById(UUID id);
+    Product getProductById(long id);
     void insertProduct(Product product);
     void updateProduct(Product product);
-    void deleteProductById(UUID id);
+    void deleteProductById(long id);
 }

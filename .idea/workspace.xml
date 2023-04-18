@@ -9,9 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09003fe9-ff2a-4873-8a25-22b0265b2b70" name="Changes" comment="Implament CRUD funtionalities">
+    <list default="true" id="09003fe9-ff2a-4873-8a25-22b0265b2b70" name="Changes" comment="Change filepath">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/application/interfaces/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/repositories/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/product-mapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/ProductResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/ProductResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/application/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/application/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/domain/DTOs/ProductDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/domain/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/domain/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/configs/MyBatisUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/configs/MyBatisUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/configs/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/configs/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/interfaces/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/interfaces/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furprprogress/testtask/infrastructure/repositories/MyBatisProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -59,6 +70,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Projects\Java\testtask\src\main\resources" />
       <recent name="D:\Projects\Projects\Java\testtask\src\main\java\com\furprprogress\testtask\infrastructure\configs" />
     </key>
   </component>
@@ -163,6 +175,8 @@
       <workItem from="1681563091965" duration="10134000" />
       <workItem from="1681576343208" duration="3013000" />
       <workItem from="1681616447339" duration="4963000" />
+      <workItem from="1681651885803" duration="286000" />
+      <workItem from="1681799305803" duration="4601000" />
     </task>
     <task id="LOCAL-00001" summary="Implament CRUD funtionalities">
       <created>1681574683778</created>
@@ -171,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681574683778</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change filepath">
+      <created>1681652139424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681652139425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +211,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implament CRUD funtionalities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implament CRUD funtionalities" />
+    <MESSAGE value="Change filepath" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change filepath" />
   </component>
 </project>
